@@ -1,0 +1,281 @@
+body {
+    background-color: rgba(0, 145, 160, 0.3);
+    position: relative;
+    }
+
+/* Nav Bar CSS starts */
+/* "address to go here" has moved to nav bar. please fix */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 39, 96, 1);
+    font-family: helvetica;
+    font-size: 13px;
+    top: 0;
+    width: 100%;
+    text-transform: uppercase;
+    }
+
+li {
+    float: left;
+    }
+
+li a {
+    display: inline-block; /* Won't go on one straight line */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+/* Change link color on hover on nav bar*/
+
+li a:hover {
+    background-color: rgba(0, 145, 160, 0.8);
+}
+
+/* Nav Bar CSS ends */
+
+/* Text CSS starts */
+
+
+h1 {
+    color: rgba(0, 39, 96, 1);
+    font-family: impact;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    }
+
+h2 {
+    color: rgba(0, 39, 96, 1);
+    padding: 20px;
+    }
+
+h3 {
+    color: rgba(0, 39, 96, 1);
+    font-family: Helvetica;
+    padding: 20px;
+    }
+
+h4 {
+    color: rgba(0, 39, 96, 1);
+    padding: 20px;
+    }
+
+h5 {color: rgba(0, 39, 96, 1);
+    font-size: 8ox
+
+}
+
+p {
+    color: rgba(0, 39, 96, 1);
+    font-size: 16px;
+    font-family: Helvetica;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+
+/* font CSS ends */
+
+div.blurb
+{   
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+
+.links 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.introduction
+ 
+ {display: block;
+    display: inline;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.london
+{
+    padding-left: 60px;
+}
+
+.map
+    {
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-left:50px;
+}
+
+.locations
+{  display: block;
+    display: inline;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div.author 
+img {
+    border-radius: 50%;
+} 
+/* Poll CSS begins */
+
+div.youchoose
+
+{ 
+    display: block;
+    display: inline;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+div.form {
+
+    display: block;
+    text-align: left;
+    display:inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    }
+
+b {
+    color: rgba(0, 39, 96, 1);
+    font-size: 20px
+}
+
+input[type=submit] {
+    background-color: rgba(0, 39, 96, 1);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 16px 12px;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    width: 9%
+    
+}
+
+/* Poll CSS ends*/
+
+/* Contact Form CSS starts */
+
+input[type=text] {
+    width: 20%;
+    padding: 7px 2px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+    } 
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=email] {
+    width: 20%;
+    padding: 7px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    }
+
+input[type=email]:focus {
+    background-color: lightblue;
+}
+
+textarea {
+    width: 20%;
+    padding: 7px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    }
+
+textarea:focus {
+    background-color: lightblue;
+}
+
+button {
+    background-color: rgba(0, 39, 96, 1);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 12px 2px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 20%
+}
+
+/* Contact Form CSS ends */
+
+.author
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+/* Footer begins */
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: red;
+    text-align: center;
+}
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+/* Footer ends */
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: black;
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: black;
